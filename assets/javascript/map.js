@@ -46,7 +46,7 @@ function displayCuisineInfo() {
 var data = $(this).attr("data-name");
 
 cuisineGlobal.push(parseFloat(data))
-$.getScript("http://assets/javascript/zomato.js");
+$.getScript("assets/javascript/zomato.js");
 
 }
 
